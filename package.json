@@ -1,0 +1,15 @@
+{
+  "name": "gatsby-hallmark",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "hallmark.com",
+    "hallmark-themes/*",
+    "design-system"
+  ],
+  "scripts": {
+    "develop": "yarn workspace hallmark.com run develop"
+  }
+}
