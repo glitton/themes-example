@@ -1,6 +1,6 @@
 import * as React from "react";
 import { graphql, Link } from "gatsby";
-import { Box } from "@hallmark/design-system";
+import { Box } from "@company/design-system";
 
 export default function ProductDetail({ params, data }) {
   return (
@@ -24,7 +24,7 @@ export default function ProductDetail({ params, data }) {
 
 export const query = graphql`
   query ($id: String) {
-    card: hallmarkCard(id: { eq: $id }) {
+    card: companyCard(id: { eq: $id }) {
       name
       price
       category {

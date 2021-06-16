@@ -1,7 +1,7 @@
 module.exports = {
   plugins: [
-    "@hallmark/product",
-    "@hallmark/category",
+    "@company/product",
+    "@company/category",
     {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {

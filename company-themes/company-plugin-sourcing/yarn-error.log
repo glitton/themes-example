@@ -28,11 +28,11 @@ Trace:
 
 npm manifest: 
   {
-    "name": "hallmark-plugin-sourcing",
+    "name": "company-plugin-sourcing",
     "version": "1.0.0",
     "main": "index.js",
     "license": "MIT",
-    "hallmark-plugin-sourcing": "^1.0.0"
+    "company-plugin-sourcing": "^1.0.0"
   }
 
 yarn manifest: 

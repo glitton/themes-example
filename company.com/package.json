@@ -1,12 +1,12 @@
 {
-  "name": "hallmark.com",
+  "name": "company.com",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@hallmark/design-system": "1.0.0",
-    "@hallmark/product": "1.0.0",
-    "@hallmark/category": "1.0.0",
+    "@company/design-system": "1.0.0",
+    "@company/product": "1.0.0",
+    "@company/category": "1.0.0",
     "gatsby": "^3.7.1",
     "gatsby-plugin-google-tagmanager": "^3.7.1",
     "react": "^17.0.2",

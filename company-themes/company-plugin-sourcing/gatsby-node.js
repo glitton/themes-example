@@ -6,16 +6,16 @@ exports.createSchemaCustomization = function createSchemaCustomization({
   const { createTypes } = actions;
 
   createTypes(`
-    type HallmarkCard implements Node {
+    type companyCard implements Node {
       id: ID!
       name: String!
       price: Float!
-      category: HallmarkCategory! @link
+      category: companyCategory! @link
     }
-    type HallmarkCategory implements Node {
+    type companyCategory implements Node {
       id: ID!
       name: String!
-      products: [HallmarkCard!]! @link
+      products: [companyCard!]! @link
     }
   `);
 };
@@ -38,7 +38,7 @@ exports.sourceNodes = function sourceNodes({
     parent: null,
     children: [],
     internal: {
-      type: `HallmarkCategory`,
+      type: `companyCategory`,
       contentDigest: createContentDigest(categoryData),
     },
   });
@@ -56,7 +56,7 @@ exports.sourceNodes = function sourceNodes({
     parent: null,
     children: [],
     internal: {
-      type: `HallmarkCard`,
+      type: `companyCard`,
       contentDigest: createContentDigest(cardData),
     },
   });

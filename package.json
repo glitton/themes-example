@@ -1,15 +1,15 @@
 {
-  "name": "gatsby-hallmark",
+  "name": "gatsby-company",
   "version": "1.0.0",
   "private": true,
   "main": "index.js",
   "license": "MIT",
   "workspaces": [
-    "hallmark.com",
-    "hallmark-themes/*",
+    "company.com",
+    "company-themes/*",
     "design-system"
   ],
   "scripts": {
-    "develop": "yarn workspace hallmark.com run develop"
+    "develop": "yarn workspace company.com run develop"
   }
 }

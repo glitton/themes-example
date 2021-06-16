@@ -1,15 +1,15 @@
 import * as React from "react";
 import { Link } from "gatsby";
-import { Box } from "@hallmark/design-system";
+import { Box } from "@company/design-system";
 
 function Layout({ children }) {
   return (
     <div>
       <Box as="header">
-        <Link to="/">HALLMARK</Link>
+        <Link to="/">company</Link>
       </Box>
       {children}
-      <Box as="footer">Footer of hallmark</Box>
+      <Box as="footer">Footer of company</Box>
     </div>
   );
 }

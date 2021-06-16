@@ -10,11 +10,11 @@ export default function Home({ data }) {
           👋
         </span>
         ,
-        <br /> welcome to hallmark.com
+        <br /> welcome to company.com
       </h1>
 
       <ul>
-        {data.allHallmarkCategory.nodes.map((category) => {
+        {data.allCompanyCategory.nodes.map((category) => {
           return (
             <li key={category.id}>
               <Link to={`/${category.slug}/`}>{category.name}</Link>
@@ -28,7 +28,7 @@ export default function Home({ data }) {
 
 export const query = graphql`
   query {
-    allHallmarkCategory {
+    allCompanyCategory {
       nodes {
         id
         name

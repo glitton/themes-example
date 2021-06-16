@@ -22,7 +22,7 @@ export default function ProductDetail({ params, data }) {
 
 export const query = graphql`
   query ($id: String) {
-    category: hallmarkCategory(id: { eq: $id }) {
+    category: companyCategory(id: { eq: $id }) {
       name
       products {
         id

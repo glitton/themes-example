@@ -1,7 +1,7 @@
 module.exports = {
   plugins: [
     {
-      resolve: "hallmark-plugin-sourcing",
+      resolve: "company-plugin-sourcing",
     },
   ],
 };
