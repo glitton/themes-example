@@ -1,12 +1,14 @@
-# Gatsby company
+# Gatsby Themes Example
 
-This is an example of how Gatsby would implement the multiple team problem at company. With the power gatsby-themes it's possible to accomplish what you want.
+This is an example of how Gatsby would implement an architecture where multiple teams can independently build and deploy portions of a website. With the power of gatsby-themes it's possible to accomplish this.
 
-In this example, I'm using a Monorepo to link all packages together. company wants a more manual release process where deploys need to go through Q&A. For that use case I would go for at least two repositories. One that contains the website (company.com) and another one that contains all packages that are owned by seperate teams. Splitting the package monorepo into smaller chunks is up to you, it depends how you want to work.
+In this example, I'm using a Monorepo to link all packages together. When a company needs to have an indepenent release process where deploys need to go through Q&A and such, this use case would use at least two independent repositories. The first contains the main website (company.com) and the second contains all packages that are owned by the individual teams.
+
+Splitting the package monorepo into smaller chunks is also possibl and will depend on how you want to your teams to work.
 
 ## Intro
 
-In this example I've created three sections:
+In this example there are three sections:
 
 - company.com
 - design-system
